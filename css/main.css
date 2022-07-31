@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.container {
+    margin: 50px 30px;
+    max-height: 930px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.lil-text {
+    font-size: 12px;
+}
+
+.header-logo {
+    display: flex;
+}
+  
+.header-logo img {
+    margin-right: 10px;
+}
+
+.header-logo h1,
+.content p {
+    margin: 0;
+}
+
+.navigation {
+    height: 100px;
+}
+
+.navigation-menu {
+    margin-top: 35px;
+}
+
+.navigation-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navigation-menu li:hover {
+    color: #BBBBBB;
+}
+
+.navigation-button {
+    font-size: 18px;
+    list-style: none;
+    color: var(--color-gray);
+    cursor: pointer;
+}
+
+.activated {
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.dontcare {
+    padding: 0;
+    margin-left: 10px;
+}
+
+.padding-left {
+    padding-left: 90px;
+}
+
+.bottom img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s ease;
+}
+
+.bottom img:hover {
+    filter: opacity(30%);
+    transition: filter 0.3s ease;
+}
+
+.copyright {
+    font-size: 12px;
+    width: 350px;
+    margin: 20px 0;
+    color: var(--color-gray);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.main {
+    margin: 0 350px;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    margin: 50px 0;
+    width: 1px;
+    height: 520px;
+    background-color: #BBBBBB;
+}
+
+.main-wrapper {
+    position: absolute;
+    top: 8px;
+    margin: 0 40px;
+    width: 76%;
+}
+
+.main-title {
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.highlite {
+    color: var(--accent-green);
+}
+
+.primary-title {
+    margin-top: -20px;
+    width: 520px;
+    font-weight: 300;
+}
+
+.services-title {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: var(--color-gray);
+    font-weight: 400;
+}
+
+.services {
+    margin-left: -40px;
+}
+
+.services-list {
+    position: absolute;
+    padding: 0;
+    width: 105%;
+    cursor: pointer;
+}
+
+.service {
+    list-style: none;
+    font-size: 24px;
+    border: 1px solid;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.service-button {  
+    float: right;
+    background: none;
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    border: 1.5px solid var(--color-white);
+    cursor: pointer;
+}
+
+.service:hover {
+    color: var(--color-black);
+    border: var(--accent-black);
+    background-color: var(--color-white);
+    -webkit-transition: background-color 500ms ease;
+    -ms-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+}
+
+li:hover button {
+    border-color: var(--color-black);
+    color: var(--color-black);
+}
